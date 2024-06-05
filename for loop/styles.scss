@@ -1,0 +1,8 @@
+@for $i from 1 through 5 {
+    .box-#{$i} {
+        width: 50px + (10px * $i);
+        height: 50px + (10px * $i);
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+    }
+}
