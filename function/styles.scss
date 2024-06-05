@@ -1,0 +1,12 @@
+@function doubleWidth($number) {
+    @return $number * 2;
+}
+
+
+$base-width: 200px;
+
+
+.double-width {
+    width: doubleWidth($base-width);
+    border: 2px solid;
+}
