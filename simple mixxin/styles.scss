@@ -1,0 +1,13 @@
+@mixin btn {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+}
+
+.primary-button {
+    @include btn();
+    background-color: #007bff;
+    color: #fff;
+}
