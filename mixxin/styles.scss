@@ -1,0 +1,8 @@
+@mixin borderRadius($radius) {
+    border-radius: $radius;
+}
+
+.rounded {
+    @include borderRadius(15px);
+    border: 2px solid;
+}
