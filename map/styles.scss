@@ -1,0 +1,16 @@
+$theme-colors: (
+    primary: #007bff,
+    secondary: #6c757d,
+    tertiary: #28a745
+);
+
+@mixin theme-background($key) {
+    background-color: map-get($theme-colors, $key);
+}
+
+
+@for $i from 1 through 5 {
+    .margin-#{$i} {
+        margin: #{10px * $i};
+    }
+}
