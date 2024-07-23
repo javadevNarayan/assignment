@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav {
+  background-color: rgb(217, 197, 168);
+  height: 4rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.logo-fixed {
+  position: fixed;
+  top: 0;
+  left: 90px;
+}
+
+/* Login Signup buttons */
+
+.side-button {
+  position: fixed;
+  top: 0;
+  left: 280px;
+  top: 13px;
+}
+.btn-primary {
+  position: fixed;
+  top: 0;
+  right: 90px;
+  margin-right: 90px;
+  top: 13px;
+}
+.btn-secondary {
+  position: fixed;
+  top: 0;
+  right: 90px;
+  top: 13px;
+}
+
+/* Container with Text */
+
+.container-fluid {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+  margin-left: 5rem;
+}
+.container-fluid h1 {
+  font-weight: 700;
+  font-size: 60px;
+  top: 100px;
+}
+.container-fluid h3 {
+  font-size: 20px;
+}
+
+/* Input Box */
+
+.input-group {
+  width: 30rem;
+}
+
+.started-button-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.container-fluid .started-button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  font-size: larger;
+}
+
+.started-button-container h6 {
+  margin-left: 2rem;
+}
