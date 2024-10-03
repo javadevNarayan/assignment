@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sign-in-container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    height: 100vh;
+    background-image: url('https://www.lensrentals.com/blog/media/2018/09/Lensrentals_Longnecker-8-1024x682.jpg');
+    background-size: cover;
+    image-resolution: ;
+  }
+  
+
+  .sign-in-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-in-box h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .signin-left{
+    /* background-color: red; */
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+
+  }
+
+  .left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+  }
+  
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .continue-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .or-separator {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .social-btn.google {
+    background-color: white;
+    border: 1px solid #4285f4;
+    color: #4285f4;
+  }
+  
+  .social-btn.facebook {
+    background-color: #4267b2;
+    color: white;
+  }
+  
+  .social-btn.apple {
+    background-color: black;
+    color: white;
+  }
+  
+  .help-link {
+    margin-top: 20px;
+    display: block;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
